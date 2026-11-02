@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Voice Agent</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0; width: 280px;
+      background: #111318; color: #e7e9ee;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    main { padding: 14px 16px; text-align: center; }
+    h1 { font-size: .95rem; margin: 0 0 .3rem; }
+    p  { color: #9aa0ae; font-size: .8rem; margin: 0 0 12px; min-height: 1.2em; }
+    button {
+      width: 100%; font-size: .95rem; padding: .6rem 1rem; border-radius: 10px;
+      border: 1px solid #2c3140; background: #1b1f29; color: #e7e9ee; cursor: pointer;
+    }
+    button:hover:not(:disabled) { background: #232937; }
+    button:disabled { opacity: .5; cursor: default; }
+    .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+           background: #4ade80; margin-right: .4rem; animation: pulse 1.5s infinite; }
+    @keyframes pulse { 50% { opacity: .35; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Voice Agent</h1>
+    <p id="status">Ask me to fill forms, browse, or click anything on this page.</p>
+    <button id="mic">Allow microphone &amp; connect</button>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
