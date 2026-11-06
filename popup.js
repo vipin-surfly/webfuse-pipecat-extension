@@ -8,7 +8,7 @@ const button = document.getElementById("mic");
 const setStatus = (text, live = false) =>
   (status.innerHTML = (live ? '<span class="dot"></span>' : "") + text);
 
-const FALLBACK_WS_URL = "wss://d3f1-95-97-8-146.ngrok-free.app";
+const FALLBACK_WS_URL = "wss://c606-95-97-8-146.ngrok-free.app";
 
 // The bot URL is configured in the extension manifest's env; fall back to the
 // hardcoded value if it can't be read.

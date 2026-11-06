@@ -13,7 +13,7 @@
     "env": [
         {
             "key": "BOT_WS_URL",
-            "value": "wss://d3f1-95-97-8-146.ngrok-free.app",
+            "value": "wss://c606-95-97-8-146.ngrok-free.app",
             "description": "Voice websocket of the Pipecat bot"
         }
     ]
